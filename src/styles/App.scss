@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #eff1f4;
+}
+
+.login-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 100px;
+
+  input {
+    padding: 12px 10px;
+    width: 300px;
+    border: 1px solid #d7d5d5;
+    font-size: 16px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .submit-button {
+    margin-top: 6px;
+    padding: 12px 0;
+    border: 0;
+    background-color: #456eeb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
